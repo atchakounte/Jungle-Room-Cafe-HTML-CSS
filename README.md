@@ -11,11 +11,11 @@ SO THAT simply, I have place to belong
 
 AS A student
 I WANT TO verify if the Café provides access to the Internet
-SO THAT I have place to study
+SO THAT I have a place to study
 
 AS A freelancing self-employed professional
 I WANT TO book a table for a meeting space
-SO THAT I have an informal environment for first-tim client introductions
+SO THAT I have an informal environment for first-time client introductions
 
 AS A young partygoer
 I WANT TO verify the cocktail bar's hours
