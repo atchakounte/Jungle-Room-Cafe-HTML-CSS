@@ -7,9 +7,9 @@ Link: [https://github.com/atchakounte/Jungle-Room-Cafe-HTML-CSS](https://github.
 
 AS A person
 I WANT TO access the Café's location
-SO THAT simply, I have place to belong (Why?)
+SO THAT simply, I have place to belong
 
-AS A student (Who?)
+AS A student
 I WANT TO verify if the Café provides access to the Internet
 SO THAT I have place to study
 
