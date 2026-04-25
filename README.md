@@ -5,25 +5,25 @@ Link: [https://github.com/atchakounte/Jungle-Room-Cafe-HTML-CSS](https://github.
 
 ## User stories
 
-AS A person (Who?)
-I WANT TO access the Café's location (What?)
+AS A person
+I WANT TO access the Café's location
 SO THAT simply, I have place to belong (Why?)
 
 AS A student (Who?)
-I WANT TO verify if the Café provides access to the Internet (What?)
-SO THAT I have place to study (Why?)
+I WANT TO verify if the Café provides access to the Internet
+SO THAT I have place to study
 
-AS A freelancing self-employed professional (Who?)
-I WANT TO book a table for a meeting space (What?)
-SO THAT I have an informal environment for first-tim client introductions (Why?)
+AS A freelancing self-employed professional
+I WANT TO book a table for a meeting space
+SO THAT I have an informal environment for first-tim client introductions
 
-AS A young partygoer (Who?)
-I WANT TO verify the cocktail bar's hours (What?)
-SO THAT I know when the nightclub hours are open (Why?)
+AS A young partygoer
+I WANT TO verify the cocktail bar's hours
+SO THAT I know when the nightclub hours are open
 
-AS A young partygoer (Who?)
-I WANT TO access a list of the Café's events (What?)
-SO THAT I know when events have a DJ and music genre (Why?)
+AS A young partygoer
+I WANT TO access a list of the Café's events
+SO THAT I know when events have a DJ and music genre
 
 ## Assets
 
