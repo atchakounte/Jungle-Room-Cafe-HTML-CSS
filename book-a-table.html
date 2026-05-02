@@ -23,59 +23,233 @@
   </head>
 
   <body>
-    <h1>Book a Table</h1>
+    <header class="page-header">
+      <nav class="navbar navbar-expand-md fixed-top bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="#">
+            <img
+              src="./assets/Jungle_Room_Café_Logo.png"
+              alt="Company Logo"
+              style="height: 150px; width: auto"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#headerNavigation"
+            aria-controls="headerNavigation"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="headerNavigation">
+            <ul class="navbar-nav mx-auto mb-2 mb-md-0">
+              <li class="nav-item menu-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item menu-item">
+                <a class="nav-link" href="./index.html#ourevents">Our Events</a>
+              </li>
+              <li class="nav-item menu-item">
+                <a class="nav-link" href="#">Book a table</a>
+              </li>
+              <li class="nav-item menu-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              <ul class="social">
+                <li>
+                  <a href="#">
+                    <img
+                      class="icon"
+                      src="./assets/envelope-regular.svg"
+                      alt="Envelope"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      class="icon"
+                      src="./assets/facebook-f-brands.svg"
+                      alt="Facebook"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      class="icon"
+                      src="./assets/instagram-brands.svg"
+                      alt="Instagram"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="m-4">
+      <h1>Book a Table</h1>
 
-    <form action="#" method="GET" class="contact-form">
-      <div class="mb-3">
-        <label for="contact-first-name" class="form-label">First Name</label>
-        <input
-          type="text"
-          class="form-control"
-          id="contact-first-name"
-          name="contact-first-name"
-          required
-        />
-      </div>
+      <form action="#" method="GET" class="contact-form">
+        <div class="mb-3">
+          <label for="contact-first-name" class="form-label">First Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="contact-first-name"
+            name="contact-first-name"
+            required
+          />
+        </div>
 
-      <div class="mb-3">
-        <label for="contact-last-name" class="form-label">Last Name</label>
-        <input
-          type="text"
-          class="form-control"
-          id="contact-last-name"
-          name="contact-last-name"
-          required
-        />
-      </div>
+        <div class="mb-3">
+          <label for="contact-last-name" class="form-label">Last Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="contact-last-name"
+            name="contact-last-name"
+            required
+          />
+        </div>
 
-      <div class="mb-3">
-        <label for="contact-email" class="form-label">E-mail</label>
-        <input
-          type="email"
-          class="form-control"
-          id="contact-email"
-          name="contact-email"
-          required
-        />
-      </div>
+        <div class="mb-3">
+          <label for="contact-email" class="form-label">E-mail</label>
+          <input
+            type="email"
+            class="form-control"
+            id="contact-email"
+            name="contact-email"
+            required
+          />
+        </div>
 
-      <div class="mb-3">
-        <label for="message" class="form-label">Message</label>
-        <textarea
-          class="form-control"
-          id="message"
-          rows="3"
-          name="message"
-          required
-        ></textarea>
-      </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea
+            class="form-control"
+            id="message"
+            rows="3"
+            name="message"
+            required
+          ></textarea>
+        </div>
 
-      <div class="mb-3 form-check">
-        <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">
-          Close
-        </button>
-        <button type="button" class="btn btn-primary">Submit message</button>
+        <div class="mb-3 form-check">
+          <button
+            type="submit"
+            class="btn btn-secondary"
+            data-bs-dismiss="modal"
+          >
+            Close
+          </button>
+          <button type="button" class="btn btn-primary">Submit message</button>
+        </div>
+      </form>
+      <!-- Button trigger modal -->
+      <a
+        class="fixed-link-circle left"
+        data-bs-toggle="modal"
+        data-bs-target="#formModal"
+        >?</a
+      >
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="formModal"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="formModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="formModalLabel">Modal title</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form action="#" method="GET" class="contact-form">
+                <div class="mb-3">
+                  <label for="contact-name" class="form-label">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="contact-name"
+                    name="contact-name"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="contact-email" class="form-label">E-mail</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="contact-email"
+                    name="contact-email"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="3"
+                    name="message"
+                    required
+                  ></textarea>
+                </div>
+
+                <div class="mb-3 form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="data-protection-field"
+                    name="accept-toc"
+                  />
+                  <label class="form-check-label" for="data-protection-field"
+                    >I accept the data protection guidelines.</label
+                  >
+                </div>
+                <div class="mb-3 form-check">
+                  <button
+                    type="submit"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="button" class="btn btn-primary">
+                    Submit message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
-    </form>
+      <a class="fixed-link-circle right" href="#">↑</a>
+    </main>
   </body>
 </html>
