@@ -1,7 +1,7 @@
 # Jungle-Room-Cafe-HTML-CSS
 
 This website is related to a hypothetical Café and cocktail bar in Douala, Cameroon. The site received inspiration from a real
-Café is Oslo, Norway: [https://www.cafesor.no/]
+Café in Oslo, Norway: [https://www.cafesor.no/]
 Link: [https://github.com/atchakounte/Jungle-Room-Cafe-HTML-CSS](https://github.com/atchakounte/Jungle-Room-Cafe-HTML-CSS)
 
 ## User stories
