@@ -19,65 +19,79 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/styles-bootstrap2.css" />
   </head>
 
   <body>
     <header class="page-header">
-      <a href="#" class="logo">the Jungle Room Café</a>
-      <!--<span class="logo">the Jungle Room Café</span>-->
-      <nav
-        class="page-header-menu-container page-header-menu-container--regular"
-      >
-        <ul class="menu">
-          <li class="menu-item">
-            <a href="#" class="menu-link">Home</a>
-          </li>
-          <li class="menu-item">
-            <a href="#ourevents" class="menu-link">Our Events</a>
-          </li>
-          <li class="menu-item">
-            <a href="./book-table.html" class="menu-link">Book a table</a>
-          </li>
-          <li class="menu-item">
-            <a href="#hours" class="menu-link">Hours</a>
-          </li>
-          <li class="menu-item"><a href="#" class="menu-link">About</a></li>
-          <li class="menu-item"><a href="#" class="menu-link">Contact</a></li>
-        </ul>
-      </nav>
-      <nav
-        class="page-header-menu-container page-header-menu-container--social d-400minus-none"
-      >
-        <ul class="social">
-          <li class="menu-item">
-            <a href="#">
-              <img
-                class="icon"
-                src="./assets/envelope-regular.svg"
-                alt="Envelope"
-              />
-            </a>
-          </li>
-          <li class="menu-item">
-            <a href="#">
-              <img
-                class="icon"
-                src="./assets/facebook-f-brands.svg"
-                alt="Facebook"
-              />
-            </a>
-          </li>
-          <li class="menu-item">
-            <a href="#">
-              <img
-                class="icon"
-                src="./assets/instagram-brands.svg"
-                alt="Instagram"
-              />
-            </a>
-          </li>
-        </ul>
+      <nav class="navbar navbar-expand-md fixed-top bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="#">
+            <img
+              src="./assets/Jungle_Room_Café_Logo.png"
+              alt="Company Logo"
+              style="height: 150px; width: auto"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#headerNavigation"
+            aria-controls="headerNavigation"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="headerNavigation">
+            <ul class="navbar-nav mx-auto mb-2 mb-md-0">
+              <li class="nav-item menu-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item menu-item">
+                <a class="nav-link" href="#ourevents">Our Events</a>
+              </li>
+              <li class="nav-item menu-item">
+                <a class="nav-link" href="#">Book a table</a>
+              </li>
+              <li class="nav-item menu-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              <ul class="social">
+                <li>
+                  <a href="#">
+                    <img
+                      class="icon"
+                      src="./assets/envelope-regular.svg"
+                      alt="Envelope"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      class="icon"
+                      src="./assets/facebook-f-brands.svg"
+                      alt="Facebook"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      class="icon"
+                      src="./assets/instagram-brands.svg"
+                      alt="Instagram"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </span>
+          </div>
+        </div>
       </nav>
     </header>
     <main class="m-4">
